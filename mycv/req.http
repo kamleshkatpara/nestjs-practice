@@ -1,0 +1,15 @@
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "mekamleshk@gmail.com",
+    "password": "kamlesh"
+}
+
+###
+GET  http://localhost:3000/auth/whoami
+
+
+###
+POST http://localhost:3000/auth/signout
